@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #007bff, #1791ba);
+    color: white;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; 
+}
+
+.titulo {
+    font-weight: bold;
+    color: #f1f1f1; 
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+}
+
+.text-container {
+    margin-bottom: 20px;
+}
+
+textarea,
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+
+.button-list ul {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+.button-list li {
+    margin: 5px;
+
+}
+
+.button {
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#botonCopiar{
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+
+.footer-content {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f1f1f1; 
+    margin: 50px auto;
+    height: 85px;
+    max-width: 1280px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content a {
+    text-decoration:underline;
+    color: white;
+    cursor: pointer;
+}
